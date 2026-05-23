@@ -325,11 +325,8 @@ function LandingView({ onStart }: { onStart: () => void }) {
         <span className="row">Find the AI Services</span>
         <span className="emph">You&apos;re Best Positioned to Sell</span>
       </h1>
-      <p className="ef-hook">
-        Answer 5 questions about your background to find your AI service sweet spot.
-      </p>
       <p className="ef-body-copy">
-        No AI certification required. No audience required. Just <strong>5 questions</strong>{" "}about what you&apos;ve spent years getting really good at.
+        Answer 5 questions about your background to find your AI service sweet spot.
       </p>
       <div className="ef-cta-wrap">
         <button className="ef-btn ef-btn-primary ef-btn-arrow" onClick={onStart}>
